@@ -1,0 +1,41 @@
+repositories:
+  ros2_planning_system:
+    type: git
+    url: https://github.com/PlanSys2/ros2_planning_system.git
+    version: e2fd96e
+  ros_typedb:
+    type: git
+    url: https://github.com/kas-lab/ros_typedb.git
+    version: main
+  mirte-ros-packages:
+    type: git
+    url: https://github.com/Rezenders/mirte-ros-packages.git
+    version: develop
+  mirte-gazebo:
+    type: git
+    url: https://github.com/Rezenders/mirte-gazebo.git
+    version: develop
+  mirte_navigation:
+    type: git
+    url: https://github.com/kas-lab/mirte_navigation.git
+    version: main
+  robocup_home_simulation:
+    type: git
+    url: https://github.com/kas-lab/robocup_home_simulation.git
+    version: main
+  aws-robomaker-small-house-world:
+    type: git
+    url: https://github.com/aws-robotics/aws-robomaker-small-house-world.git
+    version: ros2
+  plasys_house_world:
+    type: git
+    url: https://github.com/dgarcu/plasys_house_world.git
+    version: humble
+  navigation_graph_map:
+    type: git
+    url: https://github.com/kas-lab/navigation_graph_map.git
+    version: krr
+  gazebo_grasp_fix:
+    type: git
+    url: https://github.com/RCPRG-ros-pkg/gazebo-grasp-plugin.git
+    version: humble-grasp-fix
