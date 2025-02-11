@@ -14,10 +14,10 @@ RUN apt update && apt install -y --no-install-recommends \
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN mkdir -p /krr_ws/src
-COPY dependencies.rosinstall /krr_ws/dependencies.rosinstall
+COPY dependencies.repos /krr_ws/dependencies.repos
 
 WORKDIR /krr_ws
-RUN vcs import src < dependencies.rosinstall --recursive
+RUN vcs import src < dependencies.repos --recursive
 
 RUN ["/bin/bash", "-c", "source /opt/ros/humble/setup.bash \
       && apt update \
