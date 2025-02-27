@@ -42,4 +42,12 @@ repositories:
   krr_mirte_skills:
     type: git
     url: https://github.com/kas-lab/krr_mirte_skills.git
+    version: main  
+  sdf_models:
+    type: git
+    url: https://github.com/kas-lab/SDF_models.git
+    version: main
+  gazebo_model_attachment_plugin:
+    type: git
+    url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
     version: main
