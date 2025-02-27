@@ -49,5 +49,5 @@ repositories:
     version: main
   gazebo_model_attachment_plugin:
     type: git
-    url: https://github.com/Boeing/gazebo_model_attachment_plugin.git
-    version: main
+    url: https://github.com/arendjan/gazebo_model_attachment_plugin.git
+    version: humble
