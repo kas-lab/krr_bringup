@@ -1,12 +1,4 @@
 repositories:
-  ros2_planning_system:
-    type: git
-    url: https://github.com/PlanSys2/ros2_planning_system.git
-    version: e2fd96e
-  ros_typedb:
-    type: git
-    url: https://github.com/kas-lab/ros_typedb.git
-    version: main
   mirte-ros-packages:
     type: git
     url: https://github.com/kas-lab/mirte-ros-packages.git
@@ -19,6 +11,14 @@ repositories:
     type: git
     url: https://github.com/kas-lab/mirte_navigation.git
     version: main
+  krr_mirte_skills:
+    type: git
+    url: https://github.com/kas-lab/krr_mirte_skills.git
+    version: main  
+  krr_mirte_task_decision_layer:
+    type: git
+    url: https://github.com/kas-lab/krr_mirte_task_decision_layer.git
+    version: main  
   robocup_home_simulation:
     type: git
     url: https://github.com/kas-lab/robocup_home_simulation.git
@@ -31,18 +31,10 @@ repositories:
     type: git
     url: https://github.com/dgarcu/plasys_house_world.git
     version: humble
-  navigation_graph_map:
-    type: git
-    url: https://github.com/kas-lab/navigation_graph_map.git
-    version: krr
   gazebo_grasp_fix:
     type: git
     url: https://github.com/RCPRG-ros-pkg/gazebo-grasp-plugin.git
     version: humble-grasp-fix
-  krr_mirte_skills:
-    type: git
-    url: https://github.com/kas-lab/krr_mirte_skills.git
-    version: main  
   sdf_models:
     type: git
     url: https://github.com/kas-lab/SDF_models.git
@@ -51,3 +43,15 @@ repositories:
     type: git
     url: https://github.com/arendjan/gazebo_model_attachment_plugin.git
     version: humble
+  ros2_planning_system:
+    type: git
+    url: https://github.com/PlanSys2/ros2_planning_system.git
+    version: e2fd96e
+  ros_typedb:
+    type: git
+    url: https://github.com/kas-lab/ros_typedb.git
+    version: main
+  optic_planner:
+    type: git
+    url: https://github.com/sscpac/optic_planner.git
+    version: main
