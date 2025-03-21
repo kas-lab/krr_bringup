@@ -22,7 +22,7 @@ xhost +
 
 Start docker container:
 ```Bash
-docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro krr_ws
+docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro -v $HOME/krr_ws/src:/krr_ws/src krr_ws
 ```
 
 <!-- Dev option:
