@@ -9,6 +9,7 @@ RUN apt update && apt install -y --no-install-recommends \
   python-is-python3 \
   python3-pip \
   python3-colcon-common-extensions \
+  wget \
   && rm -rf /var/lib/apt/lists/*
 
 ENV DEBIAN_FRONTEND=noninteractive
